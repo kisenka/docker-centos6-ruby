@@ -1,6 +1,6 @@
 FROM sergeyzh/centos6-epel
 
-RUN yum install -y bzip2 git tar wget gcc-c++
+RUN yum install -y bzip2 which git tar wget gcc-c++
 
 ADD install-ruby.sh /tmp/
 RUN chmod +x /tmp/install-ruby.sh
