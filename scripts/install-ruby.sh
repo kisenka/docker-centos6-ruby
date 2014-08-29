@@ -14,6 +14,5 @@ make install
 ruby-install -i /usr/local ruby $RUBY_VERSION
 
 make uninstall
-yum clean all
 rm -rf /usr/local/src/ruby*
 rm -rf /tmp/*
